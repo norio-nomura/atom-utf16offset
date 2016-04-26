@@ -1,0 +1,31 @@
+{
+  "name": "utf16offset",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Display cursor position as the UTF16 based offset from the beginning of edit buffer in status-bar.",
+  "keywords": [
+    "length",
+    "location",
+    "offset",
+    "range",
+    "selected",
+    "status-bar",
+    "utf16",
+    "utf16offset"
+  ],
+  "repository": "https://github.com/norio-nomura/atom-utf16offset",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}

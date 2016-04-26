@@ -1,0 +1,8 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  'label': 'Edit'
+  'submenu': [
+    'label': 'Go to UTF16 Offset'
+    'command': 'go-to-utf16-offset:toggle'
+  ]
+]
