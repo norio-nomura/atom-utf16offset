@@ -1,7 +1,7 @@
 {
   "name": "utf16offset",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Display cursor position as the UTF16 based offset from the beginning of edit buffer in status-bar.",
   "keywords": [
     "length",
